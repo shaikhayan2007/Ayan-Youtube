@@ -1,0 +1,99 @@
+
+
+.talking-1{
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: black;
+  text-decoration: none;
+ }
+
+
+.talking-2{
+
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 4px;
+  text-decoration: none;
+  display: block;
+}
+
+.talking-3{
+
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+
+
+}
+
+.first-picfr
+{
+
+  position: relative;
+
+}
+
+.thumbnail-1{
+
+width: 100%;
+
+}
+
+
+.channel-01{
+
+width: 40px;
+border-radius: 20px;
+margin-top: 10px;
+}
+
+
+.block-1fr{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+
+}
+
+@media (max-width: 750px) {
+  .block-1fr {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .block-1fr {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .block-1fr {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.block-2fr{
+
+  display: grid;
+  grid-template-columns: 50px 1fr;  
+
+}
+
+.video-time{
+
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+
+}
